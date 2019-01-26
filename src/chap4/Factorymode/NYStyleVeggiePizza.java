@@ -1,12 +1,12 @@
 package chap4.Factorymode;
 
 public class NYStyleVeggiePizza extends Pizza{
-        public NYStyleVeggiePizza(){
-            name = "NY Style Sauce and Veggie Pizza";
-            dough = "Thin Crust Dough";
-            sauce = "Marinara Sauce";
+    public NYStyleVeggiePizza(){
+        name = "NY Style Sauce and Veggie Pizza";
+        dough = "Thin Crust Dough";
+        sauce = "Marinara Sauce";
 
-            toppings.add("Veggie");
-            toppings.add("meat");
-        }
+        toppings.add("Veggie");
+        toppings.add("meat");
+    }
 }

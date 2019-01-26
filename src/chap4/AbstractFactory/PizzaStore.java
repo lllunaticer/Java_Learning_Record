@@ -1,4 +1,6 @@
-package chap4.Factorymode;
+package chap4.AbstractFactory;
+
+import chap4.AbstractFactory.Pizza.Pizza;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type){
@@ -12,5 +14,5 @@ public abstract class PizzaStore {
 
         return pizza;
     }
-    abstract Pizza createPizza(String type);
+    protected abstract Pizza createPizza(String type);
 }
