@@ -1,7 +1,10 @@
 package Java并发编程基础;
 
 import java.util.concurrent.TimeUnit;
-
+/*
+* 两种情况下线程收到中断, 查看其中断标志位时为false：
+* 1. 查看标志位时线程已经终止
+* 2. 线程收到中断后抛出InterruptedException之前，会对中断标志位复位*/
 public class Interrupted {
     public static void main(String[] args) throws Exception{
         //sleepThread不停的尝试睡眠

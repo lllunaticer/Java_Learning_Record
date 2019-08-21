@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb49ccc6-8dd5-4dac-bd35-d2c988a0ac96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Daemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/SleepUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ShutDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Synchronied.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,24 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/双重检查锁定与延迟初始化/SafeLazyInitialization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="54" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/双重检查锁定与延迟初始化/DoubleCheckedLocking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/双重检查锁定与延迟初始化/SafeDoubleCheckedLocking.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +82,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="156">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ShutDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-416">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Synchronied.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -148,6 +150,8 @@
         <option value="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ThreadState.java" />
         <option value="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Daemon.java" />
         <option value="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java" />
+        <option value="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ShutDown.java" />
+        <option value="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Synchronied.java" />
       </list>
     </option>
   </component>
@@ -193,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566388943314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566390603286" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Interrupted">
+  <component name="RunManager" selected="Application.Synchronied">
     <configuration name="Daemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java并发编程基础.Daemon" />
       <module name="designPatterns" />
@@ -234,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java并发编程基础.MultiThread" />
+    <configuration name="ShutDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java并发编程基础.ShutDown" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
@@ -247,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java并发编程基础.Priority" />
+    <configuration name="Synchronied" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java并发编程基础.Synchronied" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
@@ -275,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Synchronied" />
+        <item itemvalue="Application.ShutDown" />
         <item itemvalue="Application.Interrupted" />
         <item itemvalue="Application.Daemon" />
         <item itemvalue="Application.ThreadState" />
-        <item itemvalue="Application.Priority" />
-        <item itemvalue="Application.MultiThread" />
       </list>
     </recent_temporary>
   </component>
@@ -295,12 +299,12 @@
       <updated>1566182694951</updated>
       <workItem from="1566182696047" duration="8706000" />
       <workItem from="1566268719103" duration="157000" />
-      <workItem from="1566377729307" duration="4678000" />
+      <workItem from="1566377729307" duration="6290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13541000" />
+    <option name="totallyTimeSpent" value="15153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1476" height="878" extended-state="6" />
@@ -443,8 +447,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Interrupted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="156">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/ShutDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程基础/Synchronied.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
