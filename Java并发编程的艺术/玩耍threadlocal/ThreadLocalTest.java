@@ -12,7 +12,6 @@ class TreadLocalTest {
         }
     };
 
-
     public static class T1 implements Runnable {
         int id;
         T1(int id) {
